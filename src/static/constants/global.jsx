@@ -3,5 +3,6 @@ export default global = {
     LOGIN : "Login",
     COURSES : "Courses",
     CONTACTUS : "Contact Us",
+    TESTIMONIALS  : "Testimonials",
     EMAIL : "org.spreadknowledge@gmail.com"
 }
