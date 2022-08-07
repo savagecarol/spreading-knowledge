@@ -1,8 +1,10 @@
 import React from 'react'
-import Footers from '../../components/Footer/Footers'
-import Headers from '../../components/Header/Headers'
-import Heading from '../../components/Heading/Heading'
-import global from '../../constants/global'
+import Contact from '../../components/contact/Contact'
+import Courses from '../../components/courses/Courses'
+import Footers from '../../components/footer/Footers'
+import Headers from '../../components/header/Headers'
+import Heading from '../../components/heading/Heading'
+import global from '../../static/constants/global'
 
 const SplashScreen = () => 
 {
@@ -10,6 +12,9 @@ const SplashScreen = () =>
       <div className='mx-16 my-2'>
          <Headers headerName = {global.WEBNAME} authName = {global.LOGIN} />
          <Heading text = {global.COURSES}/>
+         <Courses />
+         <Heading text = {global.CONTACTUS}/>
+         <Contact email = {global.EMAIL}/>
          <Footers footerName= {global.WEBNAME} />      
       </div>
   
